@@ -1,4 +1,4 @@
-# HelloID-Task-SA-Target-ActiveDirectory-RevokeMembership
+# HelloID-Task-SA-Target-ActiveDirectory-Group-RevokeMembership
 
 ## Prerequisites
 
