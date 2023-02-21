@@ -1,5 +1,5 @@
-# HelloID-Task-SA-Target-ActiveDirectory-RevokeMembership
-#########################################################
+# HelloID-Task-SA-Target-ActiveDirectory-GroupRevokeMembership
+##############################################################
 # Form mapping
 $formObject = @{
     Identity = $form.GroupName
@@ -36,4 +36,4 @@ try {
     Write-Information -Tags "Audit" -MessageData $auditLog
     Write-Error "Could not execute ActiveDirectory action: [RevokeMembership] for user: [$($formObject.Members)] on group: [$($formObject.Identity)], error: $($ex.Exception.Message)"
 }
-#########################################################
+##############################################################
